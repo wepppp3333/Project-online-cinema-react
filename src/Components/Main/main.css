@@ -1,0 +1,57 @@
+.main {
+  padding-left: 70px;
+  padding-right: 40px;
+  padding: 70px 70px 0 40px;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.section_container_card {
+  gap: 20px;
+  display: flex;
+  flex-basis: content;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.card {
+  position: relative;
+  transition: ease-in-out 1s;
+}
+.card-hover {
+  background-color: gray;
+  opacity: 0.6;
+  width: 100%;
+  height: 99%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: none;
+}
+
+.card:hover .card-hover {
+  display: flex;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.card-hover_btn {
+  width: 50px;
+  height: 50px;
+  background-image: url("./main_img/play_card-hover.png");
+  background-size: cover;
+  cursor: pointer;
+}
+.card:hover {
+}
+
+.img_card {
+  box-sizing: content-box;
+  z-index: 1;
+  width: 100%;
+}

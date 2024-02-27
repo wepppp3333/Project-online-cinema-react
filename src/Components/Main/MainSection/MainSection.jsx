@@ -1,4 +1,4 @@
-import { filmSection } from "../main_array_card/json";
+import { filmSection } from "../main_json_card/json";
 import Card from "./Card/Card";
 
 export default function MainSection({ title }) {

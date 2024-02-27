@@ -1,14 +1,11 @@
-.main {
-  padding-left: 70px;
-  padding-right: 40px;
-  padding: 70px 70px 0 40px;
-}
-
 h3 {
   color: #fff;
   margin-bottom: 34px;
   font-weight: 400;
   font-size: 32px;
+}
+.main {
+  padding: 70px 70px 0 40px;
 }
 
 .section_container_card {

@@ -1,10 +1,7 @@
 import "./main.css";
-import { filmSection } from "./main_array_card/json.js";
+import { filmSection } from "./main_json_card/json.js";
 import MainSection from "./MainSection/MainSection.jsx";
 
-// const titleSection = "Recommended Channels";
-// let name = filmSection.findIndex((el) => el.title === titleSection);
-// console.log(name);
 
 export default function Main() {
   return (

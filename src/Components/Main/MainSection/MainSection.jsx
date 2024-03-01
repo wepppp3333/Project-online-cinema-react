@@ -3,7 +3,6 @@ import Card from "./Card/Card";
 
 export default function MainSection({ title }) {
   let indexFilmSection = filmSection.findIndex((el) => el.title === title);
-  console.log(indexFilmSection);
   return (
     <>
       <section className="main_section">

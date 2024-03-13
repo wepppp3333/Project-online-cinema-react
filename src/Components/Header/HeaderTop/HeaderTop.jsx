@@ -1,6 +1,7 @@
 import logo from "../imgHeader/logo-name.svg";
 import input from "../imgHeader/input.svg";
 import signIn from "../imgHeader/sign-in.svg";
+import menuAdaptiv from "../imgHeader/menu_adaptiv.svg";
 
 export default function HeaderTop() {
   return (
@@ -33,6 +34,10 @@ export default function HeaderTop() {
         </div>
         <div className="header_top_right">
           <ul className="menu_sign-in">
+            <li className="adaptiv_menu">
+              <img src={menuAdaptiv} alt="" />
+              <p>Menu</p>
+            </li>
             <li className="sign-in_list">
               <img
                 src={input}

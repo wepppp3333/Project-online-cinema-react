@@ -61,10 +61,12 @@
 }
 
 .header_slider {
-  height: 813px;
-  background-image: url("./imgHeader/bg-header-slider.svg");
+  width: 100%;
+  height: calc(100vh - 106px);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
+  transition: ease-in 1s;
 }
 
 .header_slider_info {
@@ -109,4 +111,12 @@
 }
 .switch_active {
   background-color: #fff;
+}
+
+/* Адаптив */
+.adaptiv_menu {
+  display: none;
+}
+.adaptiv_menu p {
+  color: white;
 }

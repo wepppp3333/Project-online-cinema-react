@@ -1,0 +1,21 @@
+@media (max-width: 414px) {
+  .nav {
+    display: none;
+  }
+
+  .header_top {
+    padding: 30px 20px 20px 20px;
+  }
+  .header_top_left {
+    margin: 0;
+  }
+  .sign-in_list {
+    display: none;
+  }
+  .adaptiv_menu {
+    display: block;
+  }
+  .menu_sign-in {
+    margin-right: 0;
+  }
+}

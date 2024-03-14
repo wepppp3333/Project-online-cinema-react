@@ -35,7 +35,12 @@ export default function HeaderTop() {
         <div className="header_top_right">
           <ul className="menu_sign-in">
             <li className="adaptiv_menu">
-              <img src={menuAdaptiv} alt="" />
+              <button>
+                <img
+                  src={menuAdaptiv}
+                  alt=""
+                />
+              </button>
               <p>Menu</p>
             </li>
             <li className="sign-in_list">

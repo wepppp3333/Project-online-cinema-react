@@ -113,10 +113,13 @@
   background-color: #fff;
 }
 
-/* Адаптив */
-.adaptiv_menu {
+/* Адаптив под iphone 11*/
+.burger_menu {
   display: none;
 }
-.adaptiv_menu p {
+.burger_menu_btn p {
   color: white;
+}
+.burger_menu_btn {
+  display: none;
 }

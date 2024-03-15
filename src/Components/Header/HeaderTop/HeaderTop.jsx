@@ -1,12 +1,47 @@
+import { useState } from "react";
+import BurgerMenuBtn from "./BurgerMenuBtn";
+import BurgerMenuBtnClosed from "./BurgerMenuBtnClosed";
 import logo from "../imgHeader/logo-name.svg";
 import input from "../imgHeader/input.svg";
 import signIn from "../imgHeader/sign-in.svg";
-import menuAdaptiv from "../imgHeader/menu_adaptiv.svg";
 
 export default function HeaderTop() {
+  const [burger, setBurger] = useState(false);
+
+  console.log(burger);
   return (
     <>
       <div className="header_top">
+        <div
+          className={burger ? "burger_menu burger_menu_active" : "burger_menu"}
+        >
+          <ul className="burger_menu_list">
+            <li>
+              <img
+                src={input}
+                alt=""
+              />
+              <input
+                type="text"
+                className="sign-in_list_input"
+                placeholder="Поиск"
+              />
+            </li>
+            <li>
+              <a href="">Movies</a>
+              <a href="">Series</a>
+              <a href="">Channels</a>
+              <a href="">Music</a>
+            </li>
+            <li>
+              <img
+                src={signIn}
+                alt=""
+              />
+              <a href="">Sign in</a>
+            </li>
+          </ul>
+        </div>
         <div className="header_top_left">
           <a href="/">
             <img
@@ -34,14 +69,11 @@ export default function HeaderTop() {
         </div>
         <div className="header_top_right">
           <ul className="menu_sign-in">
-            <li className="adaptiv_menu">
-              <button>
-                <img
-                  src={menuAdaptiv}
-                  alt=""
-                />
-              </button>
-              <p>Menu</p>
+            <li
+              onClick={() => setBurger(!burger)}
+              className="burger_menu_btn"
+            >
+              {burger ? <BurgerMenuBtnClosed /> : <BurgerMenuBtn />}
             </li>
             <li className="sign-in_list">
               <img

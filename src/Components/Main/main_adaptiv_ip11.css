@@ -1,0 +1,16 @@
+/* Адаптив под iphone 11 */
+
+@media (max-width: 414px) {
+  .main {
+    padding: 14px 14px 0 14px;
+  }
+  .section_title {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .section_container_card {
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+}

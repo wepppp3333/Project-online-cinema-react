@@ -1,4 +1,5 @@
 import "./main.css";
+import "./main_adaptiv_ip11.css";
 import { filmSection } from "./main_json_card/json.js";
 import MainSection from "./MainSection/MainSection.jsx";
 

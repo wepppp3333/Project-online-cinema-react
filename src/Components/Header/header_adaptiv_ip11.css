@@ -65,4 +65,23 @@
     /* background: rgba(172, 10, 10, 0.7); */
     background-color: #232229;
   }
+  .header_slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 40px;
+    padding-bottom: 100px;
+  }
+  .header_slider_info {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .header_slider_info h1 {
+    display: none;
+  }
+
+  .slider_group_switch {
+    position: static;
+  }
 }
